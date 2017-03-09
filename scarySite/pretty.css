@@ -1,0 +1,349 @@
+/*Reset all fields CSS3 JewellSchool.org*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'va';
+    src: url(va.ttf); 
+}
+
+@font-face {
+    font-family: 're';
+    src: url(re.ottf); 
+}
+
+
+/*html{
+    overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/tv.gif) no-repeat center center fixed; /*w3schools*/
+ /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+nav{
+    top: 0;
+    position: absolute;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.mainpg{
+    overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/darkkkkk.gif) no-repeat center center fixed; /*w3schools*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.first{
+      position:relative;
+}
+
+h3{
+    font-family: 'va';
+    font-size: 35%;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    font-size: 95px;
+    margin-left: 29%;
+    margin-top: 20%;
+    color: white;
+}
+
+.button{
+    padding: 6px 12px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: white; 
+    border-radius: 5px; 
+    background-color: #0A0A0A;
+    border-color: #808080;
+    border: 1px solid transparent; 
+    cursor: pointer; 
+    margin-top: 31%;
+    margin-right: 8%;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #808080;
+    border-color: #808080;
+}
+
+
+
+/*--------------------------------------------------SECOND PAGE------------------------------------------------*/
+
+.firstpg{
+     overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/candle.gif) no-repeat center center fixed; /*w3schools*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.firstpg{
+    font-family: 're';
+}
+
+.secondpg{
+     overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/salt.gif) no-repeat center center fixed; /*w3schools*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.uno{
+    background-color: cyan;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 21%;
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    font-size: 19px;
+}
+
+.uno{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.but{
+   margin-left: 46%;
+    margin-top: 20px;
+    padding: 6px 12px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: white; 
+    border-radius: 5px; 
+    background-color: #0A0A0A;
+    border-color: #808080;
+    border: 1px solid transparent; 
+    cursor: pointer;
+}
+
+.but:hover {
+    color: #fff;
+    background-color: #808080;
+    border-color: #808080;
+}
+
+
+/*-------------------MUSIC THINGY---- got from fukuo.com-----------------------------*/
+
+#bubble-music {
+    position:fixed;
+    left:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background-color: #00808;
+    border-radius:100%;
+    -moz-border-radius:100%;
+    overflow:hidden;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    margin-top: 45%;
+}
+
+#bubble-music:hover {
+    border-radius:9px;
+    -moz-border-radius:9px;
+    width:140px;
+    height:30px;
+}
+
+.music_embed {
+    margin:-23px 0 0 70px;
+    z-index:1;
+    font-family:consolas;
+    font-size:8px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out
+}
+
+#bubble-music:hover .music_embed {
+    margin:0 0 0 0;
+    opacity:1;
+}
+
+/*-------------------DEVIN PAGE--------------------------------------------*/
+
+/*.devin{
+     overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/devin.gif) no-repeat center center fixed; /*w3schools*/
+ /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.help{
+    margin-left: 43%;
+    background-color: black;
+    border-color: black;
+    color: white;
+    margin-top: 47%;
+}*/
+
+/*-----------------Third page------------------------------------*/
+
+.tres{
+     overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/shadow.jpeg) no-repeat center center fixed; /*w3schools*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*------------------------------LAST PAGE--------------------------------------------------*/
+
+.lastpg{
+    /*animation-name: cringy5;
+    animation-duration: 0s;
+    animation-iteration-count: 0;
+    animation-direction: initial;*/
+    
+    overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/scary.gif) no-repeat center center fixed; /*w3schools*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*@keyframes cringy5{
+  from{overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/devin.gif) no-repeat center center fixed; /*w3schools*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+  to{overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/scary.gif) no-repeat center center fixed; /*w3schools*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}*/
+
+.ex{
+   margin-left: 45%;
+    margin-top: 44%;
+    padding: 6px 12px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: white; 
+    border-radius: 5px; 
+    background-color: #0A0A0A;
+    border-color: #808080;
+    border: 1px solid transparent; 
+    cursor: pointer;
+}
+
+.ex:hover {
+    color: #fff;
+    background-color: #808080;
+    border-color: #808080;
+}
+
+/*------------------------ABOUT--------------------------------------------*/
+
+.about{
+   overflow-x:hidden;
+    padding: 0 !important;
+    margin:0px !important;
+   
+  background: url(images/abt.jpg) no-repeat center center fixed; /*w3schools*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+/*----------------------FOOTER-------------------------------------*/
+
+.mainFooter {
+    width: 100%;
+    float: left; 
+    margin: 2% 0; 
+    padding: 2% 0; 
+    border-radius: 5px; 
+    /*background-color: #B0CC99;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;  
+   color: white;
+    margin-top: 8%;
+}
+
